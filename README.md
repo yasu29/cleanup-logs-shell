@@ -78,6 +78,7 @@ execute
 
 以下は dry-run モードで実行した際のログ出力例です。
 
+```
 2026-01-31 16:51:11 [cleanup_logs.sh] ロック取得完了
 2026-01-31 16:51:11 [cleanup_logs.sh] dry-run モードで実行します（削除は行いません）
 2026-01-31 16:51:11 [cleanup_logs.sh] 処理開始
@@ -90,6 +91,7 @@ execute
 2026-01-31 16:51:11 [cleanup_logs.sh] 対象: /var/log/myapp/app.log.3
 2026-01-31 16:51:11 [cleanup_logs.sh] dry-run のため削除は実行しません
 2026-01-31 16:51:11 [cleanup_logs.sh] 処理正常終了
+```
 
 
 cron 実行例
